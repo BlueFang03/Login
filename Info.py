@@ -4,7 +4,6 @@ New_Password = input("Please Create a Password: ")
 
 def Signin():
     attempts = 0
-    x = True
     while attempts < 3:
         check_user = input("Enter your username: ")
         check_pass = input("Enter your Password: ")
